@@ -4,7 +4,7 @@ import com.yoyiyi.gradle.vo.WeatherResponse;
 
 /**
  * 类名：WeathDataService
- * 描述：TODO
+ * 描述：天气服务
  * 时间：2018/6/22 16:59
  *
  * @author <a href="2455676683@qq.com">zzq</a>
@@ -15,7 +15,7 @@ public interface IWeatherDataService {
      * 根据城市ID查询天气数据
      *
      * @param cityId
-     * @return
+     * @return WeatherResponse
      */
     WeatherResponse getDataByCityId(String cityId);
 
@@ -23,7 +23,7 @@ public interface IWeatherDataService {
      * 根据城市名称查询天气数据
      *
      * @param cityName
-     * @return
+     * @return WeatherResponse
      */
     WeatherResponse getDataByCityName(String cityName);
 }
