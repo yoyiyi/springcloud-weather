@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * 类名：RestCinfiguration
- * 描述：TODO
+ * 描述：Rest服务配置
  * 时间：2018/6/22 18:00
  *
  * @author <a href="2455676683@qq.com">zzq</a>

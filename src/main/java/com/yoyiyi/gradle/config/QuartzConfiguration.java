@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * 类名：QuartzConfiguration
- * 描述：TODO
+ * 描述：调度配置 定时任务
  * 时间：2018/6/23 18:29
  *
  * @author <a href="2455676683@qq.com">zzq</a>
