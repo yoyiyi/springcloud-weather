@@ -31,11 +31,14 @@ repositories {
 
 
 dependencies {
+    //spring-starter-web
     compile('org.springframework.boot:spring-boot-starter-web')
-    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+    // redis
     compile('org.springframework.boot:spring-boot-starter-data-redis')
+    //httpclient
     compile('org.apache.httpcomponents:httpclient:4.5.5')
     // Quartz
     compile('org.springframework.boot:spring-boot-starter-quartz')
+    //测试
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
