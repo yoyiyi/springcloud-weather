@@ -18,7 +18,7 @@ public class Weather implements Serializable{
     private String aqi;
     private String ganmao;
     private String wendu;
-    private Yeaterday yesterday;
+    private Yesterday yesterday;
     private List<Forecast> forecast;
 
     public String getCity() {
@@ -53,11 +53,11 @@ public class Weather implements Serializable{
         this.wendu = wendu;
     }
 
-    public Yeaterday getYesterday() {
+    public Yesterday getYesterday() {
         return yesterday;
     }
 
-    public void setYesterday(Yeaterday yesterday) {
+    public void setYesterday(Yesterday yesterday) {
         this.yesterday = yesterday;
     }
 

@@ -3,14 +3,14 @@ package com.yoyiyi.gradle.domain;
 import java.io.Serializable;
 
 /**
- * 类名：Yeaterday
+ * 类名：Yesterday
  * 描述：昨日天气
  * 时间：2018/6/22 17:04
  *
  * @author <a href="2455676683@qq.com">zzq</a>
  * @version 1.0
  */
-public class Yeaterday implements Serializable {
+public class Yesterday implements Serializable {
     private static final long serialVersionUID = 1L;
     private String date;
     private String high;
