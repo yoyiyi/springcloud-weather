@@ -39,6 +39,9 @@ dependencies {
     compile('org.apache.httpcomponents:httpclient:4.5.5')
     // Quartz
     compile('org.springframework.boot:spring-boot-starter-quartz')
+    //swagger2
+    compile('io.springfox:springfox-swagger2:2.9.2')
+    compile('io.springfox:springfox-swagger-ui:2.9.2')
     //测试
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
