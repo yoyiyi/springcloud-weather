@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 类名：WeatherController
- * 描述：TODO
+ * 描述：WeatherController
  * 时间：2018/6/22 17:52
  *
  * @author <a href="2455676683@qq.com">zzq</a>
