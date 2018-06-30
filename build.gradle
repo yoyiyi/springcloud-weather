@@ -42,6 +42,9 @@ dependencies {
     //swagger2
     compile('io.springfox:springfox-swagger2:2.9.2')
     compile('io.springfox:springfox-swagger-ui:2.9.2')
+
+    // 添加 Spring Boot Thymeleaf Starter 的依赖
+    compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     //测试
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }

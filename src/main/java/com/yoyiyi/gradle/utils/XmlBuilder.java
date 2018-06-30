@@ -21,15 +21,14 @@ public class XmlBuilder {
      * @return
      */
     public static Object xmlStr2Object(Class<?> clazz, String xmlStr) throws Exception {
-        Object object = null;
+        Object object;
         Reader reader;
         JAXBContext jaxbContext = JAXBContext.newInstance(clazz);
+        // XML 转为对象的接口
         Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
         reader = new StringReader(xmlStr);
-        unmarshaller.unmarshal(reader);
-        if (null != reader) {
-            reader.close();
-        }
+        object = unmarshaller.unmarshal(reader);
+        reader.close();
         return object;
     }
 }

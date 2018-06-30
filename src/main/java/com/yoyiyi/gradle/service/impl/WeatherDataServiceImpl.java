@@ -69,8 +69,9 @@ public class WeatherDataServiceImpl implements IWeatherDataService {
             body = responseEntity.getBody();
         }
         //数据写入缓存
-        operations.set(uri, body, 10, TimeUnit.SECONDS);
-
+        operations.set(uri, body, 1800, TimeUnit.SECONDS);
+       // String s = operations.get(uri);
+      //  logger.info(s);
     }
 
     private WeatherResponse doGetWeather(String uri) {
@@ -90,7 +91,7 @@ public class WeatherDataServiceImpl implements IWeatherDataService {
                 body = responseEntity.getBody();
             }
             //数据写入缓存
-            operations.set(uri, body, 10, TimeUnit.SECONDS);
+            operations.set(uri, body, 1800, TimeUnit.SECONDS);
         }
         try {
             weatherResponse = objectMapper.readValue(body, WeatherResponse.class);
